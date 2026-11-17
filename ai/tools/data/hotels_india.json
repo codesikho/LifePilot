@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "dataset_name": "LifePilot Sample Hotel Dataset",
+    "version": "1.0.0",
+    "source": "MOCK",
+    "is_live": false,
+    "currency": "INR",
+    "disclaimer": "Fictional sample records for development and testing only. Hotels, addresses, prices, ratings and availability are not real provider listings and must not be used for actual travel booking.",
+    "availability_period": {
+      "from": "2026-12-01",
+      "to": "2027-03-31"
+    }
+  },
+  "hotels": [
+    {
+      "id": "JAI001",
+      "name": "Demo Jaipur Budget Inn",
+      "city": "Jaipur",
+      "locality": "Mansarovar",
+      "address": "Sample Mansarovar Road, Jaipur, India",
+      "stars": 3,
+      "rating": 4.1,
+      "review_count": 150,
+      "price_per_night": 1800,
+      "max_guests": 4,
+      "room_types": [
+        "Standard",
+        "Deluxe"
+      ],
+      "amenities": [
+        "wifi",
+        "parking",
+        "restaurant"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "JAI002",
+      "name": "Demo Pink City Residency",
+      "city": "Jaipur",
+      "locality": "Bani Park",
+      "address": "Sample Bani Park Road, Jaipur, India",
+      "stars": 4,
+      "rating": 4.4,
+      "review_count": 173,
+      "price_per_night": 3200,
+      "max_guests": 4,
+      "room_types": [
+        "Deluxe",
+        "Family"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "JAI003",
+      "name": "Demo Royal Heritage Hotel",
+      "city": "Jaipur",
+      "locality": "Amer Road",
+      "address": "Sample Amer Road Road, Jaipur, India",
+      "stars": 5,
+      "rating": 4.7,
+      "review_count": 196,
+      "price_per_night": 6800,
+      "max_guests": 4,
+      "room_types": [
+        "Premium",
+        "Suite"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "spa",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Non-refundable",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "MUM001",
+      "name": "Demo Mumbai City Stay",
+      "city": "Mumbai",
+      "locality": "Andheri East",
+      "address": "Sample Andheri East Road, Mumbai, India",
+      "stars": 3,
+      "rating": 4.0,
+      "review_count": 219,
+      "price_per_night": 2600,
+      "max_guests": 4,
+      "room_types": [
+        "Standard",
+        "Deluxe"
+      ],
+      "amenities": [
+        "wifi",
+        "parking",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "MUM002",
+      "name": "Demo Marine View Residency",
+      "city": "Mumbai",
+      "locality": "Powai",
+      "address": "Sample Powai Road, Mumbai, India",
+      "stars": 4,
+      "rating": 4.3,
+      "review_count": 242,
+      "price_per_night": 4900,
+      "max_guests": 4,
+      "room_types": [
+        "Deluxe",
+        "Family"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "MUM003",
+      "name": "Demo Harbour Grand Hotel",
+      "city": "Mumbai",
+      "locality": "Colaba",
+      "address": "Sample Colaba Road, Mumbai, India",
+      "stars": 5,
+      "rating": 4.6,
+      "review_count": 265,
+      "price_per_night": 9200,
+      "max_guests": 4,
+      "room_types": [
+        "Premium",
+        "Suite"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "restaurant",
+        "spa",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Non-refundable",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "NOI001",
+      "name": "Demo Noida Comfort Stay",
+      "city": "Noida",
+      "locality": "Sector 62",
+      "address": "Sample Sector 62 Road, Noida, India",
+      "stars": 3,
+      "rating": 4.0,
+      "review_count": 288,
+      "price_per_night": 1700,
+      "max_guests": 4,
+      "room_types": [
+        "Standard",
+        "Deluxe"
+      ],
+      "amenities": [
+        "wifi",
+        "parking",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "NOI002",
+      "name": "Demo Metro Suites",
+      "city": "Noida",
+      "locality": "Sector 18",
+      "address": "Sample Sector 18 Road, Noida, India",
+      "stars": 4,
+      "rating": 4.3,
+      "review_count": 311,
+      "price_per_night": 3100,
+      "max_guests": 4,
+      "room_types": [
+        "Deluxe",
+        "Family"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "NOI003",
+      "name": "Demo Noida Grand",
+      "city": "Noida",
+      "locality": "Sector 50",
+      "address": "Sample Sector 50 Road, Noida, India",
+      "stars": 5,
+      "rating": 4.5,
+      "review_count": 334,
+      "price_per_night": 6200,
+      "max_guests": 4,
+      "room_types": [
+        "Premium",
+        "Suite"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "gym",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Non-refundable",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "DEL001",
+      "name": "Demo Delhi Budget Rooms",
+      "city": "Delhi",
+      "locality": "Karol Bagh",
+      "address": "Sample Karol Bagh Road, Delhi, India",
+      "stars": 3,
+      "rating": 4.0,
+      "review_count": 357,
+      "price_per_night": 2100,
+      "max_guests": 4,
+      "room_types": [
+        "Standard",
+        "Deluxe"
+      ],
+      "amenities": [
+        "wifi",
+        "restaurant",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "DEL002",
+      "name": "Demo Central Delhi Suites",
+      "city": "Delhi",
+      "locality": "Aerocity",
+      "address": "Sample Aerocity Road, Delhi, India",
+      "stars": 4,
+      "rating": 4.4,
+      "review_count": 380,
+      "price_per_night": 5600,
+      "max_guests": 4,
+      "room_types": [
+        "Deluxe",
+        "Family"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "gym",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "DEL003",
+      "name": "Demo Imperial Garden Hotel",
+      "city": "Delhi",
+      "locality": "Chanakyapuri",
+      "address": "Sample Chanakyapuri Road, Delhi, India",
+      "stars": 5,
+      "rating": 4.7,
+      "review_count": 403,
+      "price_per_night": 10500,
+      "max_guests": 4,
+      "room_types": [
+        "Premium",
+        "Suite"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "spa",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Non-refundable",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "BLR001",
+      "name": "Demo Bengaluru Budget Lodge",
+      "city": "Bengaluru",
+      "locality": "Marathahalli",
+      "address": "Sample Marathahalli Road, Bengaluru, India",
+      "stars": 3,
+      "rating": 4.1,
+      "review_count": 426,
+      "price_per_night": 2200,
+      "max_guests": 4,
+      "room_types": [
+        "Standard",
+        "Deluxe"
+      ],
+      "amenities": [
+        "wifi",
+        "parking",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "BLR002",
+      "name": "Demo Garden City Residency",
+      "city": "Bengaluru",
+      "locality": "Indiranagar",
+      "address": "Sample Indiranagar Road, Bengaluru, India",
+      "stars": 4,
+      "rating": 4.5,
+      "review_count": 449,
+      "price_per_night": 4300,
+      "max_guests": 4,
+      "room_types": [
+        "Deluxe",
+        "Family"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "gym",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    },
+    {
+      "id": "BLR003",
+      "name": "Demo Tech Park Grand",
+      "city": "Bengaluru",
+      "locality": "Whitefield",
+      "address": "Sample Whitefield Road, Bengaluru, India",
+      "stars": 5,
+      "rating": 4.6,
+      "review_count": 472,
+      "price_per_night": 7900,
+      "max_guests": 4,
+      "room_types": [
+        "Premium",
+        "Suite"
+      ],
+      "amenities": [
+        "wifi",
+        "pool",
+        "parking",
+        "restaurant",
+        "spa",
+        "ac"
+      ],
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "Non-refundable",
+      "available_from": "2026-12-01",
+      "available_to": "2027-03-31",
+      "availability_status": "sample_available"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Python 3.11 recommended
+pydantic>=2.7,<3
+langchain-core>=0.3,<2
+langchain-ollama>=0.3,<2
+langgraph>=0.2,<2
+pytest>=8,<10
